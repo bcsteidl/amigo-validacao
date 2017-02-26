@@ -1,5 +1,7 @@
 'use strict'
 
+const $ = require('jquery')
+
 const opcoesCaracter = require('./opcoes/caracter')
 
 const Browser = {
@@ -58,7 +60,7 @@ module.exports = function(parametros) {
         if (opcoes.edita && !$(this).is("textarea")) {
             // Reduz o tamanho do campo para conter o botão
             $(this).width($(this).width()-23)
-            $(this).css("padding-right", "18px")
+            $(this).css("padding-right", "23px")
 
             // Encapsula o input em um span para controlar o botão de edição
             $("<span/>", {

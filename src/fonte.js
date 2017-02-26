@@ -1,5 +1,7 @@
 'use strict'
 
+const $ = require('jquery')
+
 module.exports = function(tipofonte, tamfonte) {
 
     // Define tipo e tamanho da fonte de cadacteres

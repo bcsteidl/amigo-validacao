@@ -1,3 +1,90 @@
+* {
+    font-family: "Times New Roman", "Arial", "Courier New", "Sans-Serif";
+    font-size: 13px;
+}
+
+label {
+    position: absolute;
+}
+
+input {
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    -o-border-radius: 4px;
+    -ms-border-radius: 4px;
+    border-radius: 4px;
+}
+
+textarea, select {
+    position: absolute;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    -o-border-radius: 4px;
+    -ms-border-radius: 4px;
+    border-radius: 4px;
+}
+
+button {
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    -o-border-radius: 4px;
+    -ms-border-radius: 4px;
+    border-radius: 4px;
+    font-family: "Times New Roman", arial, "Courier New", sans-serif;
+    font-size: 12px;
+    background: -webkit-gradient(linear, left top, left bottom, from(#B6B6B6), to(#FFFFFF)) repeat-X;
+    background: -moz-linear-gradient(top, #B6B6B6, #FFFFFF) repeat-X;
+    background: -o-linear-gradient(top, #B6B6B6, #FFFFFF) repeat-X;
+    background: -ms-linear-gradient(top, #B6B6B6, #FFFFFF) repeat-X;
+    position: absolute;
+}
+
+button:disabled {
+    background: #FFFFFF
+}
+
+figure:title {
+    background: #FF0000;
+    color: #FFF;
+}
+
+:required {
+    border-color: red;
+}
+
+:disabled {
+    background: #DFDFDF;
+}
+
+:invalid {
+    border-color: blue;
+}
+
+textarea {
+    resize: none;
+}
+
+thead {
+    font-family: Verdana, Arial, sans-serif;
+    font-size: 12px;
+}
+
+tbody {
+    font-family: Verdana, Arial, sans-serif;
+    font-size: 12px;
+    background-color: #FFFFCC;
+}
+
+._caixa {
+    position: absolute;
+    border: 1px solid #000000;
+    background-color: #D6D6D6;
+}
+
+._pastas {
+    position: absolute;
+}
+
 .ui-datepicker-trigger {
 	position: relative;
 	background: url("../img/calendario.png");
@@ -95,4 +182,28 @@
 
 .ui-spinner-input {
     padding: 0 0 0.1em;
+}
+
+::-webkit-scrollbar {
+    width: 5px;
+    height: 5px;
+    -webkit-border-radius: 16px;
+}
+
+::-webkit-scrollbar-track-piece {
+    margin-top: 1px;
+    background-color: #B6B6B6;
+    -webkit-border-radius: 7px;
+}
+
+::-webkit-scrollbar-thumb:vertical {
+    height: 5px;
+    background-color: #666;
+    -webkit-border-radius: 7px;
+}
+
+::-webkit-scrollbar-thumb:horizontal {
+    width: 5px;
+    background-color: #666;
+    -webkit-border-radius: 7px;
 }

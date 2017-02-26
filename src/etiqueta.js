@@ -1,5 +1,8 @@
 'use strict'
 
+const $ = require('jquery')
+require('jquery-ui')
+
 const opcoesEtiqueta = require('./opcoes/etiqueta')
 
 module.exports = function(parametros) {

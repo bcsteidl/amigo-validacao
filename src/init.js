@@ -1,5 +1,7 @@
 'use strict'
 
+const $ = require('jquery')
+
 module.exports = function(parametros) {
     return this.each(function() {
         if (typeof(parametros) == "undefined") {

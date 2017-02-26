@@ -1,5 +1,7 @@
 'use strict'
 
+const $ = require('jquery')
+
 const montaRegistros = require('./montaRegistros')
 
 module.exports = function(seletor, valores, largura) {

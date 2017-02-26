@@ -1,5 +1,11 @@
 'use strict'
 
+const $ = require('jquery')
+require('tablesorter')
+
+$.fn.funcoes = require('amigo-funcoes')
+$.fn.contextmenu = require('amigo-contextmenu')
+
 const opcoesLista = require('./opcoes/lista')
 const montaTabela = require('./montaTabela')
 
@@ -275,7 +281,7 @@ module.exports = function(parametros) {
                     }
                 }, {
                     text: "Editar",
-                    icon: "img/editar-pq.gif",
+                    icon: "../img/editar-pq.gif",
                     alias: "3",
                     action: function(item) {
                         // Abre formulário para alteração do registro selecionado
@@ -283,7 +289,7 @@ module.exports = function(parametros) {
                     }
                 }, {
                     text: "Apagar",
-                    icon: "img/apagar-pq.png",
+                    icon: "../img/apagar-pq.png",
                     alias: "4",
                     action: function(item) {
                         // Apaga o registro no formulário de Itens da compra

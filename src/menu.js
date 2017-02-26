@@ -1,5 +1,10 @@
 'use strict'
 
+const $ = require('jquery')
+
+$.fn.funcoes = require('amigo-funcoes')
+$.fn.json = require('amigo-json')
+
 const opcoesMenu = require('./opcoes/menu')
 
 module.exports = function(parametros) {

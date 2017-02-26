@@ -1,5 +1,7 @@
 'use strict'
 
+const $ = require('jquery')
+
 const opcoesBotao = require('./opcoes/botao')
 
 module.exports = function(parametros) {

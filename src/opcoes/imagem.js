@@ -1,5 +1,7 @@
 'use strict'
 
+const $ = require('jquery')
+
 module.exports = function(seletor, opcoesJS) {
     var defaults = {
         nome: "",

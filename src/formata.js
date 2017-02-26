@@ -1,5 +1,7 @@
 'use strict'
 
+const $ = require('jquery')
+
 module.exports = function(tipo, tamanho, decimais) {
     var valor = null;
 

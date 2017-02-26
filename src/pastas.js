@@ -1,5 +1,7 @@
 'use strict'
 
+const $ = require('jquery')
+
 const opcoesPastas = require('./opcoes/pastas')
 
 module.exports = function(parametros) {

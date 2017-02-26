@@ -1,5 +1,7 @@
 'use strict'
 
+const $ = require('jquery')
+
 const opcoesInteiro = require('./opcoes/inteiro')
 
 module.exports = function(parametros) {
@@ -51,7 +53,7 @@ module.exports = function(parametros) {
                 step: 1,
                 numberFormat: "n0"
             });
-            $(this).css("padding-right", "2px")
+            $(this).css("padding-right", "4px")
 
             // Formata conforme campo de input texto normal
             $(this).parent().css({

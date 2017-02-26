@@ -1,5 +1,9 @@
 'use strict'
 
+const $ = require('jquery')
+
+$.fn.funcoes = require('amigo-funcoes')
+
 // Define a globalização que o AMIGO vai usar
 const Gbl = $().funcoes.globalize("pt")
 

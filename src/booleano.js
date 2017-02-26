@@ -1,5 +1,7 @@
 'use strict'
 
+const $ = require('jquery')
+
 const opcoesBooleano = require('./opcoes/senha')
 
 module.exports = function(parametros) {

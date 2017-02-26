@@ -1,5 +1,10 @@
 'use strict'
 
+require('../node_modules/jquery-ui-timepicker-addon/dist/jquery-ui-timepicker-addon.css')
+
+const $ = require('jquery')
+require('jquery-ui-timepicker-addon')
+
 const opcoesDataHora = require('./opcoes/datahora')
 
 const Browser = {

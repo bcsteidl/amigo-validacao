@@ -1,5 +1,7 @@
 'use strict'
 
+const $ = require('jquery')
+
 const opcoesDecimal = require('./opcoes/decimal')
 
 module.exports = function(parametros) {
@@ -54,7 +56,7 @@ module.exports = function(parametros) {
                 step: div,
                 numberFormat: "n" + opcoes.decimal
             });
-            $(this).css("padding-right", "2px")
+            $(this).css("padding-right", "4px")
 
             // Formata conforme campo de input texto normal
             $(this).parent().css({

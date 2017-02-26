@@ -1,5 +1,7 @@
 'use strict'
 
+const $ = require('jquery')
+
 module.exports = function(horizontal, vertical, largura, altura) {
 
     // Se o pai for um Label, se o filho for uma tabela, ou se o filho for um botão ou se o filho for um label,

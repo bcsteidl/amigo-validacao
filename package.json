@@ -1,6 +1,6 @@
 {
     "name": "amigo-validacao",
-    "version": "2.5.2",
+    "version": "2.5.3",
     "description": "Pacote de validação e formatação de campos nas telas HTML, podendo ser utilizado como CommonJS ou plugin na página principal do projeto.",
     "main": "index.js",
     "scripts": {

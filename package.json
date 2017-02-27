@@ -1,28 +1,28 @@
 {
-  "name": "amigo-validacao",
-  "version": "2.5.0",
-  "description": "Pacote de validação e formatação de campos nas telas html, podendo ser utilizado como CommonJS ou plugin na página principal do projeto.",
-  "main": "index.js",
-  "scripts": {
-    "build": "NODE_PRD=FALSE webpack",
-    "build-min": "NODE_PRD=TRUE webpack -p",
-    "test": "cd test && webpack"
-  },
-  "author": "Bruno César Steidl",
-  "license": "ISC",
-  "dependencies": {
-    "amigo-contextmenu": "^2.5.4",
-    "amigo-funcoes": "^2.5.3",
-    "amigo-json": "^2.5.2",
-    "jquery": "^3.1.1",
-    "jquery-ui-dist": "^1.12.1",
-    "jquery-ui-timepicker-addon": "^1.6.3",
-    "tablesorter": "^2.28.5"
-  },
-  "devDependencies": {
-    "css-loader": "^0.26.1",
-    "file-loader": "^0.10.0",
-    "style-loader": "^0.13.1",
-    "url-loader": "^0.5.7"
-  }
+    "name": "amigo-validacao",
+    "version": "2.5.1",
+    "description": "Pacote de validação e formatação de campos nas telas HTML, podendo ser utilizado como CommonJS ou plugin na página principal do projeto.",
+    "main": "index.js",
+    "scripts": {
+        "build": "NODE_PRD=FALSE webpack",
+        "build-min": "NODE_PRD=TRUE webpack -p",
+        "test": "cd test && webpack"
+    },
+    "author": "Bruno César Steidl",
+    "license": "ISC",
+    "dependencies": {
+        "amigo-contextmenu": "^2.5.4",
+        "amigo-funcoes": "^2.5.3",
+        "amigo-json": "^2.5.2",
+        "jquery": "^3.1.1",
+        "jquery-ui-dist": "^1.12.1",
+        "jquery-ui-timepicker-addon": "^1.6.3",
+        "tablesorter": "^2.28.5"
+    },
+    "devDependencies": {
+        "css-loader": "^0.26.1",
+        "file-loader": "^0.10.0",
+        "style-loader": "^0.13.1",
+        "url-loader": "^0.5.7"
+    }
 }

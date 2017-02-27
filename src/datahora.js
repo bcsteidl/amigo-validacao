@@ -1,6 +1,6 @@
 'use strict'
 
-require('../node_modules/jquery-ui-timepicker-addon/dist/jquery-ui-timepicker-addon.css')
+require('jquery-ui-timepicker-addon/dist/jquery-ui-timepicker-addon.css')
 
 const $ = require('jquery')
 require('jquery-ui-timepicker-addon')

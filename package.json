@@ -1,9 +1,10 @@
 {
     "name": "amigo-validacao",
-    "version": "2.5.1",
+    "version": "2.5.2",
     "description": "Pacote de validação e formatação de campos nas telas HTML, podendo ser utilizado como CommonJS ou plugin na página principal do projeto.",
     "main": "index.js",
     "scripts": {
+        "start": "webpack-dev-server --content-base . --inline",
         "build": "NODE_PRD=FALSE webpack",
         "build-min": "NODE_PRD=TRUE webpack -p",
         "test": "cd test && webpack"

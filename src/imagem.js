@@ -40,7 +40,7 @@ module.exports = function(parametros) {
                 width: 150,
                 items: [{
                     text: "Carregar",
-                    icon: "../img/editar-pq.gif",
+                    icon: require("../img/editar-pq.gif"),
                     alias: "1-0",
                     action: function(obj) {
                         // Mostra Tela para upload da imagem
@@ -107,7 +107,7 @@ module.exports = function(parametros) {
                     }
                 }, {
                     text: "Apagar",
-                    icon: "../img/apagar-pq.png",
+                    icon: require("../img/apagar-pq.png"),
                     alias: "2-0",
                     action: function(obj) {
                         $(obj).children("img").attr("src", "http://localhost:3000/images/imagem_quebrada.png");

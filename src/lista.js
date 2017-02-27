@@ -261,14 +261,14 @@ module.exports = function(parametros) {
                 width: 150,
                 items: [{
                     text: "Atualizar",
-                    icon: "img/atualizar.png",
+                    icon: require("../img/atualizar-pq.png"),
                     alias: "1",
                     action: function(item) {
                         $(objlista).trigger("Atualizar");
                     }
                 }, {
                     text: "Incluir",
-                    icon: "img/criar-pq.png",
+                    icon: require("../img/criar-pq.png"),
                     alias: "2",
                     action: function(item) {
                         // Abre formulário para criação de novo registro filho
@@ -281,7 +281,7 @@ module.exports = function(parametros) {
                     }
                 }, {
                     text: "Editar",
-                    icon: "../img/editar-pq.gif",
+                    icon: require("../img/editar-pq.gif"),
                     alias: "3",
                     action: function(item) {
                         // Abre formulário para alteração do registro selecionado
@@ -289,7 +289,7 @@ module.exports = function(parametros) {
                     }
                 }, {
                     text: "Apagar",
-                    icon: "../img/apagar-pq.png",
+                    icon: require("../img/apagar-pq.png"),
                     alias: "4",
                     action: function(item) {
                         // Apaga o registro no formulário de Itens da compra
